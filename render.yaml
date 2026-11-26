@@ -65,8 +65,7 @@ services:
       - key: N8N_EDITOR_BASE_URL
         value: https://n8n-dev.vijaysoftware.com/
         
-      - key: N8N_LOG_LEVEL
-        value: info # Options: error, warn, info, debug
+
 
         
 
