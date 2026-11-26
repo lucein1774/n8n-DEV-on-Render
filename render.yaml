@@ -65,6 +65,12 @@ services:
       - key: N8N_EDITOR_BASE_URL
         value: https://n8n-dev.vijaysoftware.com/
 
+      - key: N8N_LOG_LEVEL
+        value: info # Options: error, warn, info, debug
+        
+      - key: N8N_LOG_OUTPUT
+        value: console # Use "console,file" only if you have a persistent disk attached
+
 databases:
   - name: n8n-db
     plan: 0.1c-256mb
