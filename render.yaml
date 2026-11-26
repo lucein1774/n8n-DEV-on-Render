@@ -65,20 +65,7 @@ services:
       - key: N8N_EDITOR_BASE_URL
         value: https://n8n-dev.vijaysoftware.com/
 
-      - key: N8N_LOG_LEVEL
-        value: info # Options: error, warn, info, debug
-        
-      - key: N8N_LOG_OUTPUT
-        value: console,file
-        
-      - key: N8N_LOG_FILE_LOCATION
-        value: /var/data/logs/n8n.log
-        
-      - key: N8N_LOG_FILE_SIZE_MAX
-        value: "16" # Max size in MB per file (quote numeric values in YAML)
-        
-      - key: N8N_LOG_FILE_COUNT_MAX
-        value: "100" # Max number of log files to retain
+
 
 databases:
   - name: n8n-db
