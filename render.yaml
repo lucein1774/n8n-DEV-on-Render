@@ -52,6 +52,19 @@ services:
           name: n8n-db
           property: user
 
+      # These are settging for N8N
+      - key: N8N_HOST
+        value: n8n-dev.vijaysoftware.com
+
+      - key: N8N_PROTOCOL
+        value: https
+
+      - key: WEBHOOK_URL
+        value: https://n8n-dev.vijaysoftware.com/
+
+      - key: N8N_EDITOR_BASE_URL
+        value: https://n8n-dev.vijaysoftware.com/
+
 databases:
   - name: n8n-db
     plan: 0.1c-256mb
