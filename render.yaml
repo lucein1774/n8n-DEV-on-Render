@@ -63,11 +63,7 @@ services:
         value: https://n8n-dev.vijaysoftware.com/
 
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-dev.vijaysoftware.com/
-        
-
-
-        
+        value: https://n8n-dev.vijaysoftware.com/           
 
 
 databases:
